@@ -29,3 +29,16 @@ flattern_list = [value for sub in nested_list for value in sub if value < 3]
 
 # -----------------------------------------------------------------------------
 
+# Now we are using L.C. with map & lambda expression ...
+
+new_complex_list = list(map(lambda number: number + 10, [number for number in range(5)]))
+
+print(new_complex_list)
+
+# ------------------------------------------------------------------------------
+
+# Now we are using L.C. with filter & lambda expression ...
+
+new_filter_list = list(filter(lambda filt_num: filt_num*2, [filt_num for filt_num in range(5)]))
+
+print(new_filter_list)

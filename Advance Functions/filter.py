@@ -1,5 +1,6 @@
 # The code is to implement filter() method
-# filter(func, iter) method is used to filter/select same element in func & iter
+# filter(func, iter) method is used to filter/
+# select same element in func & iter
 # It returns same element in function and iteration
 
 file_open = open("Advance Functions/filter_sample.txt", "r")
