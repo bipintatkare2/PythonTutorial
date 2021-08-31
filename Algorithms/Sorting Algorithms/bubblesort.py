@@ -15,7 +15,7 @@ def bubbleSort(arr):
 
 
 # Creating a list
-bubble_list = [10, 30, 20, 50, 40, 70, 60, 100, 80, 90]
+bubble_list = [7, 72, 90, 21, 60]
 
 # Function Calling
 bubbleSort(bubble_list)
